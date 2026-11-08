@@ -1,0 +1,11 @@
+{
+  "widths": [
+    1440,
+    390
+  ],
+  "voice_demo": true,
+  "optional_calibration_demo": true,
+  "setup_page": true,
+  "overflow": false,
+  "page_errors": []
+}

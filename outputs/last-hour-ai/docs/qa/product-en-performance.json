@@ -1,0 +1,304 @@
+{
+ "page": "outputs/last-hour-ai/product/index.html",
+ "partial": false,
+ "results": [
+  {
+   "w": 1440,
+   "rows": [
+    {
+     "name": "host CPU load (before/after)",
+     "value": "21/24 %",
+     "verdict": "PASS",
+     "note": ""
+    },
+    {
+     "name": "total transfer",
+     "value": "240.4 KiB",
+     "verdict": "PASS",
+     "note": "html 4.3K  css 36.2K  js 17.8K  font 177.1K  img 0.4K  other 4.7K"
+    },
+    {
+     "name": "requests",
+     "value": 12,
+     "verdict": "PASS",
+     "note": "11 by load"
+    },
+    {
+     "name": "images bytes",
+     "value": "0.4 KiB",
+     "verdict": "PASS",
+     "note": "1 files"
+    },
+    {
+     "name": "largest image",
+     "value": "0.4 KiB",
+     "verdict": "PASS",
+     "note": "assets/study-signal.svg"
+    },
+    {
+     "name": "JS parsed",
+     "value": "47.2 KiB",
+     "verdict": "PASS",
+     "note": "3 files, 17.8K gz"
+    },
+    {
+     "name": "CSS",
+     "value": "36.2 KiB",
+     "verdict": "PASS",
+     "note": "3 files"
+    },
+    {
+     "name": "font families",
+     "value": 2,
+     "verdict": "PASS",
+     "note": "Outfit, Instrument Serif"
+    },
+    {
+     "name": "font files",
+     "value": 2,
+     "verdict": "PASS",
+     "note": "177.1K"
+    },
+    {
+     "name": "font bytes",
+     "value": "177.1 KiB",
+     "verdict": "WARN",
+     "note": ""
+    },
+    {
+     "name": "images without width+height",
+     "value": 0,
+     "verdict": "PASS",
+     "note": ""
+    },
+    {
+     "name": "below-fold images not lazy",
+     "value": 1,
+     "verdict": "WARN",
+     "note": "study-signal.svg"
+    },
+    {
+     "name": "oversized images (natural > 2.2x shown)",
+     "value": 0,
+     "verdict": "PASS",
+     "note": ""
+    },
+    {
+     "name": "WebGL live at load",
+     "value": 0,
+     "verdict": "PASS",
+     "note": ""
+    },
+    {
+     "name": "WebGL live at bottom",
+     "value": 0,
+     "verdict": "PASS",
+     "note": ""
+    },
+    {
+     "name": "WebGL peak live",
+     "value": 0,
+     "verdict": "PASS",
+     "note": "0 contexts made in all"
+    },
+    {
+     "name": "long tasks",
+     "value": 0,
+     "verdict": "PASS",
+     "note": "runs 1, , max 0ms"
+    },
+    {
+     "name": "blocking time",
+     "value": "0 ms",
+     "verdict": "PASS",
+     "note": "runs 1,  ms; at load 0ms"
+    },
+    {
+     "name": "FCP (CPU, relative)",
+     "value": "104 ms",
+     "verdict": "PASS",
+     "note": ""
+    },
+    {
+     "name": "LCP (CPU, relative)",
+     "value": "104 ms",
+     "verdict": "PASS",
+     "note": "h1"
+    },
+    {
+     "name": "layout shift",
+     "value": "0.000",
+     "verdict": "PASS",
+     "note": "at load 0.000"
+    },
+    {
+     "name": "modules loaded, never mounted",
+     "value": 0,
+     "verdict": "PASS",
+     "note": ""
+    },
+    {
+     "name": "broken requests",
+     "value": 0,
+     "verdict": "PASS",
+     "note": ""
+    },
+    {
+     "name": "page height",
+     "value": "3.9 screens",
+     "verdict": "PASS",
+     "note": "DOM 238 nodes"
+    }
+   ]
+  },
+  {
+   "w": 390,
+   "rows": [
+    {
+     "name": "host CPU load (before/after)",
+     "value": "21/24 %",
+     "verdict": "PASS",
+     "note": ""
+    },
+    {
+     "name": "total transfer",
+     "value": "240 KiB",
+     "verdict": "PASS",
+     "note": "html 4.3K  css 36.2K  js 17.8K  font 177.1K  img 0.4K  other 4.3K"
+    },
+    {
+     "name": "requests",
+     "value": 11,
+     "verdict": "PASS",
+     "note": "10 by load"
+    },
+    {
+     "name": "images bytes",
+     "value": "0.4 KiB",
+     "verdict": "PASS",
+     "note": "1 files"
+    },
+    {
+     "name": "largest image",
+     "value": "0.4 KiB",
+     "verdict": "PASS",
+     "note": "assets/study-signal.svg"
+    },
+    {
+     "name": "JS parsed",
+     "value": "47.2 KiB",
+     "verdict": "PASS",
+     "note": "3 files, 17.8K gz"
+    },
+    {
+     "name": "CSS",
+     "value": "36.2 KiB",
+     "verdict": "PASS",
+     "note": "3 files"
+    },
+    {
+     "name": "font families",
+     "value": 2,
+     "verdict": "PASS",
+     "note": "Outfit, Instrument Serif"
+    },
+    {
+     "name": "font files",
+     "value": 2,
+     "verdict": "PASS",
+     "note": "177.1K"
+    },
+    {
+     "name": "font bytes",
+     "value": "177.1 KiB",
+     "verdict": "WARN",
+     "note": ""
+    },
+    {
+     "name": "images without width+height",
+     "value": 0,
+     "verdict": "PASS",
+     "note": ""
+    },
+    {
+     "name": "below-fold images not lazy",
+     "value": 1,
+     "verdict": "WARN",
+     "note": "study-signal.svg"
+    },
+    {
+     "name": "oversized images (natural > 2.2x shown)",
+     "value": 0,
+     "verdict": "PASS",
+     "note": ""
+    },
+    {
+     "name": "WebGL live at load",
+     "value": 0,
+     "verdict": "PASS",
+     "note": ""
+    },
+    {
+     "name": "WebGL live at bottom",
+     "value": 0,
+     "verdict": "PASS",
+     "note": ""
+    },
+    {
+     "name": "WebGL peak live",
+     "value": 0,
+     "verdict": "PASS",
+     "note": "0 contexts made in all"
+    },
+    {
+     "name": "long tasks",
+     "value": 0,
+     "verdict": "PASS",
+     "note": "runs 1, , max 0ms"
+    },
+    {
+     "name": "blocking time",
+     "value": "0 ms",
+     "verdict": "PASS",
+     "note": "runs 1,  ms; at load 0ms"
+    },
+    {
+     "name": "FCP (CPU, relative)",
+     "value": "52 ms",
+     "verdict": "PASS",
+     "note": ""
+    },
+    {
+     "name": "LCP (CPU, relative)",
+     "value": "52 ms",
+     "verdict": "PASS",
+     "note": "h1"
+    },
+    {
+     "name": "layout shift",
+     "value": "0.000",
+     "verdict": "PASS",
+     "note": "at load 0.000"
+    },
+    {
+     "name": "modules loaded, never mounted",
+     "value": 0,
+     "verdict": "PASS",
+     "note": ""
+    },
+    {
+     "name": "broken requests",
+     "value": 0,
+     "verdict": "PASS",
+     "note": ""
+    },
+    {
+     "name": "page height",
+     "value": "5.3 screens",
+     "verdict": "PASS",
+     "note": "DOM 238 nodes"
+    }
+   ]
+  }
+ ]
+}

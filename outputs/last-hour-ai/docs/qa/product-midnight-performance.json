@@ -1,0 +1,304 @@
+{
+ "page": "outputs/last-hour-ai/product/index.html",
+ "partial": false,
+ "results": [
+  {
+   "w": 1440,
+   "rows": [
+    {
+     "name": "host CPU load (before/after)",
+     "value": "15/11 %",
+     "verdict": "PASS",
+     "note": ""
+    },
+    {
+     "name": "total transfer",
+     "value": "424.6 KiB",
+     "verdict": "PASS",
+     "note": "html 2.6K  css 40.1K  js 15.9K  font 247.2K  img 115.7K  other 3K"
+    },
+    {
+     "name": "requests",
+     "value": 15,
+     "verdict": "PASS",
+     "note": "15 by load"
+    },
+    {
+     "name": "images bytes",
+     "value": "115.7 KiB",
+     "verdict": "PASS",
+     "note": "2 files"
+    },
+    {
+     "name": "largest image",
+     "value": "115.3 KiB",
+     "verdict": "PASS",
+     "note": "screenshots/study-signal-desktop.png"
+    },
+    {
+     "name": "JS parsed",
+     "value": "42.4 KiB",
+     "verdict": "PASS",
+     "note": "3 files, 15.9K gz"
+    },
+    {
+     "name": "CSS",
+     "value": "40.1 KiB",
+     "verdict": "PASS",
+     "note": "4 files"
+    },
+    {
+     "name": "font families",
+     "value": 2,
+     "verdict": "PASS",
+     "note": "Outfit, Instrument Serif"
+    },
+    {
+     "name": "font files",
+     "value": 3,
+     "verdict": "PASS",
+     "note": "247.2K"
+    },
+    {
+     "name": "font bytes",
+     "value": "247.2 KiB",
+     "verdict": "WARN",
+     "note": ""
+    },
+    {
+     "name": "images without width+height",
+     "value": 0,
+     "verdict": "PASS",
+     "note": ""
+    },
+    {
+     "name": "below-fold images not lazy",
+     "value": 1,
+     "verdict": "WARN",
+     "note": "study-signal.svg"
+    },
+    {
+     "name": "oversized images (natural > 2.2x shown)",
+     "value": 1,
+     "verdict": "WARN",
+     "note": "study-signal-desktop.png 880px for 398"
+    },
+    {
+     "name": "WebGL live at load",
+     "value": 0,
+     "verdict": "PASS",
+     "note": ""
+    },
+    {
+     "name": "WebGL live at bottom",
+     "value": 0,
+     "verdict": "PASS",
+     "note": ""
+    },
+    {
+     "name": "WebGL peak live",
+     "value": 0,
+     "verdict": "PASS",
+     "note": "0 contexts made in all"
+    },
+    {
+     "name": "long tasks",
+     "value": 0,
+     "verdict": "PASS",
+     "note": "runs 1, , max 0ms"
+    },
+    {
+     "name": "blocking time",
+     "value": "0 ms",
+     "verdict": "PASS",
+     "note": "runs 1,  ms; at load 0ms"
+    },
+    {
+     "name": "FCP (CPU, relative)",
+     "value": "84 ms",
+     "verdict": "PASS",
+     "note": ""
+    },
+    {
+     "name": "LCP (CPU, relative)",
+     "value": "84 ms",
+     "verdict": "PASS",
+     "note": "img"
+    },
+    {
+     "name": "layout shift",
+     "value": "0.000",
+     "verdict": "PASS",
+     "note": "at load 0.000"
+    },
+    {
+     "name": "modules loaded, never mounted",
+     "value": 0,
+     "verdict": "PASS",
+     "note": ""
+    },
+    {
+     "name": "broken requests",
+     "value": 0,
+     "verdict": "PASS",
+     "note": ""
+    },
+    {
+     "name": "page height",
+     "value": "3 screens",
+     "verdict": "PASS",
+     "note": "DOM 123 nodes"
+    }
+   ]
+  },
+  {
+   "w": 390,
+   "rows": [
+    {
+     "name": "host CPU load (before/after)",
+     "value": "15/11 %",
+     "verdict": "PASS",
+     "note": ""
+    },
+    {
+     "name": "total transfer",
+     "value": "424.2 KiB",
+     "verdict": "PASS",
+     "note": "html 2.6K  css 40.1K  js 15.9K  font 247.2K  img 115.7K  other 2.6K"
+    },
+    {
+     "name": "requests",
+     "value": 14,
+     "verdict": "PASS",
+     "note": "14 by load"
+    },
+    {
+     "name": "images bytes",
+     "value": "115.7 KiB",
+     "verdict": "PASS",
+     "note": "2 files"
+    },
+    {
+     "name": "largest image",
+     "value": "115.3 KiB",
+     "verdict": "PASS",
+     "note": "screenshots/study-signal-desktop.png"
+    },
+    {
+     "name": "JS parsed",
+     "value": "42.4 KiB",
+     "verdict": "PASS",
+     "note": "3 files, 15.9K gz"
+    },
+    {
+     "name": "CSS",
+     "value": "40.1 KiB",
+     "verdict": "PASS",
+     "note": "4 files"
+    },
+    {
+     "name": "font families",
+     "value": 2,
+     "verdict": "PASS",
+     "note": "Outfit, Instrument Serif"
+    },
+    {
+     "name": "font files",
+     "value": 3,
+     "verdict": "PASS",
+     "note": "247.2K"
+    },
+    {
+     "name": "font bytes",
+     "value": "247.2 KiB",
+     "verdict": "WARN",
+     "note": ""
+    },
+    {
+     "name": "images without width+height",
+     "value": 0,
+     "verdict": "PASS",
+     "note": ""
+    },
+    {
+     "name": "below-fold images not lazy",
+     "value": 1,
+     "verdict": "WARN",
+     "note": "study-signal.svg"
+    },
+    {
+     "name": "oversized images (natural > 2.2x shown)",
+     "value": 2,
+     "verdict": "WARN",
+     "note": "study-signal-desktop.png 880px for 298; study-signal-desktop.png 880px for 342"
+    },
+    {
+     "name": "WebGL live at load",
+     "value": 0,
+     "verdict": "PASS",
+     "note": ""
+    },
+    {
+     "name": "WebGL live at bottom",
+     "value": 0,
+     "verdict": "PASS",
+     "note": ""
+    },
+    {
+     "name": "WebGL peak live",
+     "value": 0,
+     "verdict": "PASS",
+     "note": "0 contexts made in all"
+    },
+    {
+     "name": "long tasks",
+     "value": 0,
+     "verdict": "PASS",
+     "note": "runs 1, , max 0ms"
+    },
+    {
+     "name": "blocking time",
+     "value": "0 ms",
+     "verdict": "PASS",
+     "note": "runs 1,  ms; at load 0ms"
+    },
+    {
+     "name": "FCP (CPU, relative)",
+     "value": "60 ms",
+     "verdict": "PASS",
+     "note": ""
+    },
+    {
+     "name": "LCP (CPU, relative)",
+     "value": "60 ms",
+     "verdict": "PASS",
+     "note": "img"
+    },
+    {
+     "name": "layout shift",
+     "value": "0.000",
+     "verdict": "PASS",
+     "note": "at load 0.000"
+    },
+    {
+     "name": "modules loaded, never mounted",
+     "value": 0,
+     "verdict": "PASS",
+     "note": ""
+    },
+    {
+     "name": "broken requests",
+     "value": 0,
+     "verdict": "PASS",
+     "note": ""
+    },
+    {
+     "name": "page height",
+     "value": "4 screens",
+     "verdict": "PASS",
+     "note": "DOM 123 nodes"
+    }
+   ]
+  }
+ ]
+}

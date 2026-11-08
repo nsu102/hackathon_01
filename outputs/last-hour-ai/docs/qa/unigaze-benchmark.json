@@ -1,0 +1,34 @@
+[
+  {
+    "model": "unigaze_l16_joint",
+    "precision": "float32",
+    "median_ms": 115.16,
+    "max_ms": 288.46,
+    "finite": true,
+    "max_precision_delta_deg": 0.0
+  },
+  {
+    "model": "unigaze_l16_joint",
+    "precision": "float16",
+    "median_ms": 106.95,
+    "max_ms": 128.45,
+    "finite": true,
+    "max_precision_delta_deg": 0.04478
+  },
+  {
+    "model": "unigaze_b16_joint",
+    "precision": "float32",
+    "median_ms": 27.06,
+    "max_ms": 28.3,
+    "finite": true,
+    "max_precision_delta_deg": 0.0
+  },
+  {
+    "model": "unigaze_b16_joint",
+    "precision": "float16",
+    "median_ms": 25.02,
+    "max_ms": 27.94,
+    "finite": true,
+    "max_precision_delta_deg": 0.0286
+  }
+]

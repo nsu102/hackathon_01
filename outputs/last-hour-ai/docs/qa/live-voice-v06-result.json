@@ -1,0 +1,17 @@
+{
+  "transcript": "이거 어렵네. 알려줘. 조건부 확률에서 분모는 왜 이렇게 되나요?",
+  "message": {
+    "id": "a79920fb417e4531bf6228f42f2903dc",
+    "role": "assistant",
+    "content": "이미지의 공식은 P(A | B) = P(A ∩ B) / P(B)입니다. 분모가 P(B)인 이유는 '사건 B가 일어났다'는 조건 때문에 우리가 보는 전체 범위(표본공간)가 B로 줄어들기 때문입니다. 이미지의 카드 예시로 보면, 빨간 카드가 4장이라는 조건이 주어졌으니 전체를 빨간 카드 4장으로 보고, 그중 별 표시가 있는 2장의 비율인 2/4를 구합니다. 즉 분모는 '조건이 되는 사건 B에 해당하는 경우의 수(확률)', 분자는 'B 안에서 A도 동시에 일어나는 경우(A ∩ B)'입니다.",
+    "question": "힌트: 이미지의 카드 예시에서 B를 '빨간 카드', A를 '별 표시 카드'라고 하면, P(A ∩ B)와 P(B)는 각각 무엇에 해당할까요? (전체 카드 수를 N장이라고 두고 식으로 써 보세요.)",
+    "answer": "B(빨간 카드)는 4장이므로 P(B) = 4/N이고, A ∩ B(빨간 카드이면서 별 표시)는 2장이므로 P(A ∩ B) = 2/N입니다. 따라서 P(A | B) = (2/N) / (4/N) = 2/4입니다. N이 약분되어 사라지므로, 결국 '빨간 카드 4장 중 별 표시 2장'이라는 이미지의 설명과 같은 결과가 됩니다.",
+    "source": "openrouter",
+    "mode": "context",
+    "at": 1794068825.736532,
+    "training_eligible": false
+  },
+  "elapsed_seconds": 6.96,
+  "fixture": "v0.6 full-monitor target contract; OS synthetic Korean speech + authored screenshot; actual OpenRouter STT and vision, not human microphone/native-capture accuracy test",
+  "media_persisted": false
+}

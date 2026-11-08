@@ -1,0 +1,9 @@
+{
+  "url": "https://github.com/yakhyo/gaze-estimation/releases/download/weights/mobileone_s0_gaze.onnx",
+  "sha256": "8b4fdc4e3da44733c9a82e7776b411e4a39f94e8e285aee0fc85a548a55f7d9f",
+  "bytes": 4974521,
+  "model": "MobileGaze MobileOne S0",
+  "source": "https://github.com/yakhyo/gaze-estimation",
+  "output": "Gaze yaw and pitch, not screen coordinates",
+  "screen_projection": "Our approximate geometric projection; accuracy unmeasured without user validation"
+}

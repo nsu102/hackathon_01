@@ -1,0 +1,23 @@
+{
+  "passed": [
+    "session lifecycle",
+    "voice-only controls and removed text presets",
+    "coarse away state visible without pixel calibration",
+    "false-alarm grace",
+    "menu action opens settings",
+    "negative-origin manual region",
+    "button starts actual WebM/Opus recording",
+    "explicit send receives answer",
+    "button needs no keyboard hook",
+    "cancel discards recording",
+    "manual voice crop and answer",
+    "collapsed recording indicator",
+    "menu pause and end cleanup",
+    "connection settings clears API key after save",
+    "file attachment enters session context",
+    "screenshot attachment shown while recording",
+    "answer and focus bubble IPC"
+  ],
+  "page_errors": [],
+  "environment": "headless system Chrome; synthetic microphone; mock native capture/menu/camera. No human accuracy claims."
+}

@@ -1,0 +1,8 @@
+# Install in a separate CUDA environment; record pip freeze after compatibility checks.
+torch>=2.2
+transformers>=4.51.0
+peft>=0.17
+trl>=0.20
+datasets>=3
+accelerate>=1
+bitsandbytes>=0.45

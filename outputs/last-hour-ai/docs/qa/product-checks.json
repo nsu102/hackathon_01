@@ -1,0 +1,603 @@
+{
+  "full": {
+    "counts": {
+      "FAIL": 35,
+      "WARN": 27
+    },
+    "scope": "full five widths",
+    "findings": [
+      {
+        "width": 1440,
+        "check": "no-visual",
+        "sev": "WARN",
+        "msg": "pictures, effects and mocks cover 22% of this section; a feature section needs a visual (about 25% or more)"
+      },
+      {
+        "width": 1440,
+        "check": "copy-headline",
+        "sev": "WARN",
+        "msg": "\"공부의 흐름을 지키는 AI 학습 파트너.\": no category known to check it against (pass --category, or write the <title> as \"Name: what it is for whom\")"
+      },
+      {
+        "width": 1440,
+        "check": "copy-headline",
+        "sev": "WARN",
+        "msg": "the h1 has 1 word (2 to 8 read at a glance)"
+      },
+      {
+        "width": 1440,
+        "check": "copy-actions",
+        "sev": "WARN",
+        "msg": "2 labels for one target /index.html#experience: \"데모 보기 ↗\", \"제품 데모 보기 ↗\""
+      },
+      {
+        "width": 1440,
+        "check": "text-contrast",
+        "sev": "WARN",
+        "msg": "15 lines of text in drawn mocks read under 4.5:1 (7 colour pairs), the worst \"Study Signal\" in #fff6ec on #fffcf6 at 1.04:1"
+      },
+      {
+        "width": 1440,
+        "check": "section-gaps",
+        "sev": "WARN",
+        "msg": "uneven space at the edge of a band: 40px outside its edge, 109px inside it (the space on either side of a change of ground reads as one gap only when the two match)"
+      },
+      {
+        "width": 1440,
+        "check": "section-gaps",
+        "sev": "WARN",
+        "msg": "uneven space at the edge of a band: 113px outside its edge, 65px inside it (the space on either side of a change of ground reads as one gap only when the two match)"
+      },
+      {
+        "width": 1440,
+        "check": "links",
+        "sev": "WARN",
+        "msg": "\"데이터와 설정\" goes to #start, in the footer"
+      },
+      {
+        "width": 1440,
+        "check": "links",
+        "sev": "WARN",
+        "msg": "\"9점 보정으로 시작하는 학습 파트너 macOS · v0.4 개발판 →\" goes to #start, in the footer"
+      },
+      {
+        "width": 1440,
+        "check": "nav-labels",
+        "sev": "WARN",
+        "msg": "\"Study Signal\" opens a section headed \"공부의 흐름을 지키는 AI 학습 파트너.\""
+      },
+      {
+        "width": 1440,
+        "check": "nav-current",
+        "sev": "WARN",
+        "msg": "the nav stays on screen with 3 links to the page's sections, but never marks the one you are in (no link changes as the page scrolls)"
+      },
+      {
+        "width": 1440,
+        "check": "action-count",
+        "sev": "WARN",
+        "msg": "the main action \"제품 데모 보기\" is on 5 buttons and links: the nav, the hero and the closing call carry it; elsewhere a section has its own action"
+      },
+      {
+        "width": 1440,
+        "check": "container-edges",
+        "sev": "FAIL",
+        "msg": "the nav's first box starts at 103px and its last ends at 1341px, not on its .wrap at 80-1360px (SR-6)"
+      },
+      {
+        "width": 1440,
+        "check": "container-edges",
+        "sev": "FAIL",
+        "msg": "1 text block starts on a left line at x 611, 531px from the container's left: text starts on the container's left, or on one split line (x 623, 732, 841) (SR-6)"
+      },
+      {
+        "width": 1440,
+        "check": "container-edges",
+        "sev": "FAIL",
+        "msg": "1 text block starts on a left line at x 417, 337px from the container's left: text starts on the container's left, or on one split line (x 623, 732, 841) (SR-6)"
+      },
+      {
+        "width": 1440,
+        "check": "container-edges",
+        "sev": "FAIL",
+        "msg": "the h1 starts 337px right of the container's left: every h1 and h2 starts on it, 2px either way (SR-6)"
+      },
+      {
+        "width": 1440,
+        "check": "container-edges",
+        "sev": "FAIL",
+        "msg": "a box over half the container wide runs 406-1360px, not on the container's lines at 80-1360px (SR-6)"
+      },
+      {
+        "width": 1440,
+        "check": "container-edges",
+        "sev": "FAIL",
+        "msg": "a box over half the container wide runs 240-1200px, not on the container's lines at 80-1360px (SR-6)"
+      },
+      {
+        "width": 1024,
+        "check": "text-contrast",
+        "sev": "WARN",
+        "msg": "15 lines of text in drawn mocks read under 4.5:1 (7 colour pairs), the worst \"Study Signal\" in #fff6ec on #fffcf6 at 1.04:1"
+      },
+      {
+        "width": 1024,
+        "check": "section-gaps",
+        "sev": "WARN",
+        "msg": "uneven space at the edge of a band: 33px outside its edge, 113px inside it (the space on either side of a change of ground reads as one gap only when the two match)"
+      },
+      {
+        "width": 1024,
+        "check": "section-gaps",
+        "sev": "WARN",
+        "msg": "uneven space at the edge of a band: 113px outside its edge, 56px inside it (the space on either side of a change of ground reads as one gap only when the two match)"
+      },
+      {
+        "width": 1024,
+        "check": "nav-current",
+        "sev": "WARN",
+        "msg": "the nav stays on screen with 3 links to the page's sections, but never marks the one you are in (no link changes as the page scrolls)"
+      },
+      {
+        "width": 820,
+        "check": "nav",
+        "sev": "FAIL",
+        "msg": "at 820px the bar shows only the wordmark and a menu button: its main action \"데모 보기 ↗\" is shut in the menu, with 628px of the bar free"
+      },
+      {
+        "width": 820,
+        "check": "overlap-text",
+        "sev": "WARN",
+        "msg": "inside div#study-demo, a box sits on the mock's own text and hides it mid-line (\"빨간 카드라는 조건이 주어졌다면, 별 카드일 확률은 P\")"
+      },
+      {
+        "width": 820,
+        "check": "text-contrast",
+        "sev": "WARN",
+        "msg": "15 lines of text in drawn mocks read under 4.5:1 (7 colour pairs), the worst \"Study Signal\" in #fff6ec on #fffcf6 at 1.04:1"
+      },
+      {
+        "width": 820,
+        "check": "section-gaps",
+        "sev": "WARN",
+        "msg": "uneven space at the edge of a band: 40px outside its edge, 109px inside it (the space on either side of a change of ground reads as one gap only when the two match)"
+      },
+      {
+        "width": 820,
+        "check": "section-gaps",
+        "sev": "WARN",
+        "msg": "uneven space at the edge of a band: 113px outside its edge, 56px inside it (the space on either side of a change of ground reads as one gap only when the two match)"
+      },
+      {
+        "width": 820,
+        "check": "container-edges",
+        "sev": "FAIL",
+        "msg": "the nav's first box starts at 67px and its last ends at 753px, not on its .wrap at 48-772px (SR-6)"
+      },
+      {
+        "width": 820,
+        "check": "container-edges",
+        "sev": "FAIL",
+        "msg": "1 text block starts on a left line at x 301, 253px from the container's left: text starts on the container's left, or on one split line (x 360, 422, 484) (SR-6)"
+      },
+      {
+        "width": 820,
+        "check": "container-edges",
+        "sev": "FAIL",
+        "msg": "1 text block starts on a left line at x 199, 151px from the container's left: text starts on the container's left, or on one split line (x 360, 422, 484) (SR-6)"
+      },
+      {
+        "width": 820,
+        "check": "container-edges",
+        "sev": "FAIL",
+        "msg": "the h1 starts 151px right of the container's left: every h1 and h2 starts on it, 2px either way (and 1 more like it: x 484) (SR-6)"
+      },
+      {
+        "width": 820,
+        "check": "container-edges",
+        "sev": "FAIL",
+        "msg": "\"공부의 흐름을 지키는 AI 학습 파트너.\" is set centred across 421px, over half the 724px container: text that wide is set left (SR-6)"
+      },
+      {
+        "width": 820,
+        "check": "split-pair",
+        "sev": "FAIL",
+        "msg": "the split's left column starts with a picture or a box, not text: text left, the visual right, on every split (SR-8)"
+      },
+      {
+        "width": 820,
+        "check": "split-pair",
+        "sev": "FAIL",
+        "msg": "the split's columns are off the page's one pair of lines: its right column starts at x 297, the first split's at 484; its right column starts at x 297, on none of the split lines 360 (k=5), 422 (k=6), 484 (k=7) (SR-8)"
+      },
+      {
+        "width": 820,
+        "check": "split-pair",
+        "sev": "FAIL",
+        "msg": "the split's columns are off the page's one pair of lines: its right column starts at x 422, the first split's at 484 (SR-8)"
+      },
+      {
+        "width": 768,
+        "check": "nav",
+        "sev": "FAIL",
+        "msg": "at 768px the bar shows only the wordmark and a menu button: its main action \"데모 보기 ↗\" is shut in the menu, with 576px of the bar free"
+      },
+      {
+        "width": 768,
+        "check": "overlap-text",
+        "sev": "WARN",
+        "msg": "inside div#study-demo, a box sits on the mock's own text and hides it mid-line (\"빨간 카드라는 조건이 주어졌다면, 별 카드일 확률은 P\") (and 1 more like it: \"Study Signal ··· 학습 영역을 \")"
+      },
+      {
+        "width": 768,
+        "check": "text-contrast",
+        "sev": "WARN",
+        "msg": "15 lines of text in drawn mocks read under 4.5:1 (7 colour pairs), the worst \"Study Signal\" in #fff6ec on #fffcf6 at 1.04:1"
+      },
+      {
+        "width": 768,
+        "check": "section-gaps",
+        "sev": "WARN",
+        "msg": "uneven space at the edge of a band: 40px outside its edge, 109px inside it (the space on either side of a change of ground reads as one gap only when the two match)"
+      },
+      {
+        "width": 768,
+        "check": "section-gaps",
+        "sev": "WARN",
+        "msg": "uneven space at the edge of a band: 113px outside its edge, 56px inside it (the space on either side of a change of ground reads as one gap only when the two match)"
+      },
+      {
+        "width": 768,
+        "check": "container-edges",
+        "sev": "FAIL",
+        "msg": "the nav's first box starts at 67px and its last ends at 701px, not on its .wrap at 48-720px (SR-6)"
+      },
+      {
+        "width": 768,
+        "check": "container-edges",
+        "sev": "FAIL",
+        "msg": "1 text block starts on a left line at x 275, 227px from the container's left: text starts on the container's left, or on one split line (x 338, 396, 454) (SR-6)"
+      },
+      {
+        "width": 768,
+        "check": "container-edges",
+        "sev": "FAIL",
+        "msg": "1 text block starts on a left line at x 173, 125px from the container's left: text starts on the container's left, or on one split line (x 338, 396, 454) (SR-6)"
+      },
+      {
+        "width": 768,
+        "check": "container-edges",
+        "sev": "FAIL",
+        "msg": "the h1 starts 125px right of the container's left: every h1 and h2 starts on it, 2px either way (and 1 more like it: x 454) (SR-6)"
+      },
+      {
+        "width": 768,
+        "check": "container-edges",
+        "sev": "FAIL",
+        "msg": "\"공부의 흐름을 지키는 AI 학습 파트너.\" is set centred across 421px, over half the 672px container: text that wide is set left (SR-6)"
+      },
+      {
+        "width": 768,
+        "check": "container-edges",
+        "sev": "FAIL",
+        "msg": "a box over half the container wide runs 209-559px, not on the container's lines at 48-720px (SR-6)"
+      },
+      {
+        "width": 768,
+        "check": "split-pair",
+        "sev": "FAIL",
+        "msg": "the split's left column starts with a picture or a box, not text: text left, the visual right, on every split (SR-8)"
+      },
+      {
+        "width": 768,
+        "check": "split-pair",
+        "sev": "FAIL",
+        "msg": "the split's columns are off the page's one pair of lines: its right column starts at x 280, the first split's at 454; its right column starts at x 280, on none of the split lines 338 (k=5), 396 (k=6), 454 (k=7) (SR-8)"
+      },
+      {
+        "width": 768,
+        "check": "split-pair",
+        "sev": "FAIL",
+        "msg": "the split's columns are off the page's one pair of lines: its right column starts at x 396, the first split's at 454 (SR-8)"
+      },
+      {
+        "width": 390,
+        "check": "cta",
+        "sev": "FAIL",
+        "msg": "the last section before the footer ends with no button"
+      },
+      {
+        "width": 390,
+        "check": "text-contrast",
+        "sev": "WARN",
+        "msg": "14 lines of text in drawn mocks read under 4.5:1 (7 colour pairs), the worst \"Study Signal\" in #fff6ec on #fffcf6 at 1.04:1"
+      },
+      {
+        "width": 390,
+        "check": "section-gaps",
+        "sev": "WARN",
+        "msg": "uneven space at the edge of a band: 28px outside its edge, 97px inside it (the space on either side of a change of ground reads as one gap only when the two match)"
+      },
+      {
+        "width": 390,
+        "check": "section-gaps",
+        "sev": "WARN",
+        "msg": "uneven space at the edge of a band: 97px outside its edge, 36px inside it (the space on either side of a change of ground reads as one gap only when the two match)"
+      },
+      {
+        "width": 390,
+        "check": "section-height",
+        "sev": "FAIL",
+        "msg": "the section's content does not fit it: its lowest content ends 816px below its top, past 804px (the section less 40px of bottom padding) (SR-2)"
+      },
+      {
+        "width": 390,
+        "check": "container-edges",
+        "sev": "FAIL",
+        "msg": "the nav's first box starts at 41px and its last ends at 353px, not on its .wrap at 24-366px (SR-6)"
+      },
+      {
+        "width": 390,
+        "check": "container-edges",
+        "sev": "FAIL",
+        "msg": "1 text block starts on a left line at x 110, 86px from the container's left: text starts on the container's left, or on one split line (x 177, 207, 238) (SR-6)"
+      },
+      {
+        "width": 390,
+        "check": "container-edges",
+        "sev": "FAIL",
+        "msg": "1 text block starts on a left line at x 54, 30px from the container's left: text starts on the container's left, or on one split line (x 177, 207, 238) (SR-6)"
+      },
+      {
+        "width": 390,
+        "check": "container-edges",
+        "sev": "FAIL",
+        "msg": "the h1 starts 30px right of the container's left: every h1 and h2 starts on it, 2px either way (SR-6)"
+      },
+      {
+        "width": 390,
+        "check": "container-edges",
+        "sev": "FAIL",
+        "msg": "\"공부의 흐름을 지키는 AI 학습 파트너.\" is set centred across 283px, over half the 342px container: text that wide is set left (SR-6)"
+      },
+      {
+        "width": 390,
+        "check": "container-edges",
+        "sev": "FAIL",
+        "msg": "\"시선이 멀어지면 다시 불러주고,막히는 순간엔 보고 있던 내\" is set centred across 252px, over half the 342px container: text that wide is set left (SR-6)"
+      },
+      {
+        "width": 390,
+        "check": "container-edges",
+        "sev": "FAIL",
+        "msg": "a box over half the container wide runs 103-287px, not on the container's lines at 24-366px (SR-6)"
+      },
+      {
+        "width": 390,
+        "check": "section-height",
+        "sev": "FAIL",
+        "msg": "with every answer and tab open, the section's content does not fit it: its lowest content ends 816px below its top, past 804px (the section less 40px of bottom padding) (SR-2)"
+      }
+    ]
+  },
+  "targeted_after_fixes": {
+    "counts": {
+      "FAIL": 11,
+      "WARN": 13
+    },
+    "scope": "quick check at 820,768,390; before final CTA size adjustment",
+    "findings": [
+      {
+        "width": 820,
+        "check": "button-styles",
+        "sev": "FAIL",
+        "msg": "one button style (soft, outline #f2d8bc) in 3 heights: 36, 44, 48px (\"작동 방식 알아보기\" 48px, \"보정 기준 자세히 보기 ↗\" 36px)"
+      },
+      {
+        "width": 820,
+        "check": "copy-headline",
+        "sev": "WARN",
+        "msg": "\"공부의 흐름을 지키는 AI 학습 파트너.\": no category known to check it against (pass --category, or write the <title> as \"Name: what it is for whom\")"
+      },
+      {
+        "width": 820,
+        "check": "copy-headline",
+        "sev": "WARN",
+        "msg": "the h1 has 1 word (2 to 8 read at a glance)"
+      },
+      {
+        "width": 820,
+        "check": "text-contrast",
+        "sev": "WARN",
+        "msg": "15 lines of text in drawn mocks read under 4.5:1 (7 colour pairs), the worst \"Study Signal\" in #fff6ec on #fffcf6 at 1.04:1"
+      },
+      {
+        "width": 820,
+        "check": "section-gaps",
+        "sev": "WARN",
+        "msg": "uneven space at the edge of a band: 40px outside its edge, 109px inside it (the space on either side of a change of ground reads as one gap only when the two match)"
+      },
+      {
+        "width": 820,
+        "check": "section-gaps",
+        "sev": "WARN",
+        "msg": "uneven space at the edge of a band: 113px outside its edge, 56px inside it (the space on either side of a change of ground reads as one gap only when the two match)"
+      },
+      {
+        "width": 820,
+        "check": "nav-labels",
+        "sev": "WARN",
+        "msg": "\"Study Signal\" opens a section headed \"공부의 흐름을 지키는 AI 학습 파트너.\""
+      },
+      {
+        "width": 820,
+        "check": "action-count",
+        "sev": "WARN",
+        "msg": "the main action \"제품 데모 보기\" is on 6 buttons and links: the nav, the hero and the closing call carry it; elsewhere a section has its own action"
+      },
+      {
+        "width": 820,
+        "check": "container-edges",
+        "sev": "FAIL",
+        "msg": "the nav's first box starts at 67px and its last ends at 753px, not on its .wrap at 48-772px (SR-6)"
+      },
+      {
+        "width": 820,
+        "check": "container-edges",
+        "sev": "FAIL",
+        "msg": "1 text block starts on a left line at x 301, 253px from the container's left: text starts on the container's left, or on one split line (x 360, 422, 484) (SR-6)"
+      },
+      {
+        "width": 820,
+        "check": "container-edges",
+        "sev": "FAIL",
+        "msg": "1 text block starts on a left line at x 199, 151px from the container's left: text starts on the container's left, or on one split line (x 360, 422, 484) (SR-6)"
+      },
+      {
+        "width": 820,
+        "check": "container-edges",
+        "sev": "FAIL",
+        "msg": "the h1 starts 151px right of the container's left: every h1 and h2 starts on it, 2px either way (and 1 more like it: x 484) (SR-6)"
+      },
+      {
+        "width": 820,
+        "check": "container-edges",
+        "sev": "FAIL",
+        "msg": "\"공부의 흐름을 지키는 AI 학습 파트너.\" is set centred across 421px, over half the 724px container: text that wide is set left (SR-6)"
+      },
+      {
+        "width": 820,
+        "check": "split-pair",
+        "sev": "FAIL",
+        "msg": "the split's left column starts with a picture or a box, not text: text left, the visual right, on every split (SR-8)"
+      },
+      {
+        "width": 820,
+        "check": "split-pair",
+        "sev": "FAIL",
+        "msg": "the split's columns are off the page's one pair of lines: its right column starts at x 297, the first split's at 484; its right column starts at x 297, on none of the split lines 360 (k=5), 422 (k=6), 484 (k=7) (SR-8)"
+      },
+      {
+        "width": 820,
+        "check": "split-pair",
+        "sev": "FAIL",
+        "msg": "the split's columns are off the page's one pair of lines: its right column starts at x 422, the first split's at 484 (SR-8)"
+      },
+      {
+        "width": 768,
+        "check": "button-styles",
+        "sev": "FAIL",
+        "msg": "one button style (soft, outline #f2d8bc) in 3 heights: 36, 44, 48px (\"작동 방식 알아보기\" 48px, \"보정 기준 자세히 보기 ↗\" 36px)"
+      },
+      {
+        "width": 768,
+        "check": "text-contrast",
+        "sev": "WARN",
+        "msg": "15 lines of text in drawn mocks read under 4.5:1 (7 colour pairs), the worst \"Study Signal\" in #fff6ec on #fffcf6 at 1.04:1"
+      },
+      {
+        "width": 768,
+        "check": "section-gaps",
+        "sev": "WARN",
+        "msg": "uneven space at the edge of a band: 40px outside its edge, 109px inside it (the space on either side of a change of ground reads as one gap only when the two match)"
+      },
+      {
+        "width": 768,
+        "check": "section-gaps",
+        "sev": "WARN",
+        "msg": "uneven space at the edge of a band: 113px outside its edge, 56px inside it (the space on either side of a change of ground reads as one gap only when the two match)"
+      },
+      {
+        "width": 390,
+        "check": "button-styles",
+        "sev": "FAIL",
+        "msg": "one button style (soft, outline #f2d8bc) in 2 heights: 36, 44px (\"작동 방식 알아보기\" 44px, \"보정 기준 자세히 보기 ↗\" 36px)"
+      },
+      {
+        "width": 390,
+        "check": "text-contrast",
+        "sev": "WARN",
+        "msg": "14 lines of text in drawn mocks read under 4.5:1 (7 colour pairs), the worst \"Study Signal\" in #fff6ec on #fffcf6 at 1.04:1"
+      },
+      {
+        "width": 390,
+        "check": "section-gaps",
+        "sev": "WARN",
+        "msg": "uneven space at the edge of a band: 28px outside its edge, 97px inside it (the space on either side of a change of ground reads as one gap only when the two match)"
+      },
+      {
+        "width": 390,
+        "check": "section-gaps",
+        "sev": "WARN",
+        "msg": "uneven space at the edge of a band: 97px outside its edge, 36px inside it (the space on either side of a change of ground reads as one gap only when the two match)"
+      }
+    ]
+  },
+  "final_layout": [
+    {
+      "size": "1440x900",
+      "overflow_x": false,
+      "findings": [
+        {
+          "rule": "edge-left",
+          "where": "nav logo",
+          "detail": "at x 103, the page's left line is 80"
+        },
+        {
+          "rule": "edge-right",
+          "where": "nav actions",
+          "detail": "end at x 1341, the page's right line is 1360"
+        }
+      ]
+    },
+    {
+      "size": "820x1180",
+      "overflow_x": false,
+      "findings": [
+        {
+          "rule": "edge-left",
+          "where": "nav logo",
+          "detail": "at x 67, the page's left line is 48"
+        },
+        {
+          "rule": "edge-right",
+          "where": "nav actions",
+          "detail": "end at x 753, the page's right line is 772"
+        }
+      ]
+    },
+    {
+      "size": "768x1024",
+      "overflow_x": false,
+      "findings": [
+        {
+          "rule": "edge-left",
+          "where": "nav logo",
+          "detail": "at x 67, the page's left line is 48"
+        },
+        {
+          "rule": "edge-right",
+          "where": "nav actions",
+          "detail": "end at x 701, the page's right line is 720"
+        }
+      ]
+    },
+    {
+      "size": "390x844",
+      "overflow_x": false,
+      "findings": [
+        {
+          "rule": "edge-left",
+          "where": "nav logo",
+          "detail": "at x 41, the page's left line is 24"
+        },
+        {
+          "rule": "edge-right",
+          "where": "nav actions",
+          "detail": "end at x 353, the page's right line is 366"
+        }
+      ]
+    }
+  ],
+  "status": "Genuine CTA visibility, tablet mock overlap and mobile footer fit were fixed. Centered hero, padded nav and interactive split composition are documented style-checker exceptions. No zero-failure design certification claimed."
+}

@@ -1,0 +1,8 @@
+.agents/
+.env
+.DS_Store
+*.zip
+*.dmg
+*.app/
+.build/
+work/

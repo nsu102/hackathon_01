@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "last-hour-ai"
+version = "0.8.0"
+description = "Study companion with local gaze signals and server heart-rate input"
+requires-python = ">=3.11"
+dependencies = ["pypdf==7.0.0"]
+
+[project.optional-dependencies]
+live = ["openai==3.31.0"]
+# OpenRouter uses the standard library and needs no SDK extra or OpenAI account.
+demo = ["playwright==1.58.0"]
+
+[project.scripts]
+last-hour = "last_hour.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["last_hour*"]
+
+[tool.setuptools.package-data]
+last_hour = ["*.md"]

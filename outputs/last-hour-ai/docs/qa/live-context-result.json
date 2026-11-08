@@ -1,0 +1,17 @@
+{
+  "transcript": "이거 어렵네. 알려줘. 조건부 확률에서 분모는 왜 이렇게 되나요?",
+  "message": {
+    "id": "a0238a54d5044384b74282d4163aa4f9",
+    "role": "assistant",
+    "content": "분모 P(B)는 '조건이 된 사건 B'가 전체가 되도록 기준을 바꾸는 역할을 합니다. 조건부 확률에서는 B가 이미 일어났다고 알고 있으므로, 원래의 전체 경우가 아니라 B 안에서만 따져야 합니다. 그래서 분자에는 B 안에서 A도 일어나는 경우인 P(A ∩ B)를, 분모에는 B 전체인 P(B)를 씁니다. 그림 속 카드 예시로 보면, 빨간 카드가 B이고 별 표시가 A입니다. 빨간 카드 4장이 새로운 전체이고, 그중 별 표시가 2장이므로 2/4가 됩니다.",
+    "question": "빨간 카드가 4장이고 그중 별 표시가 2장일 때, 전체 카드가 10장이라면 P(A ∩ B)와 P(B)는 각각 얼마일까요? 이 둘을 나누면 2/4와 같아지는지 확인해 보세요. (힌트: 분자와 분모에 모두 10을 나누는 꼴로 생각해 보세요.)",
+    "answer": "전체 카드가 10장이라고 가정하면 P(A ∩ B) = 2/10이고 P(B) = 4/10입니다. 따라서 P(A | B) = (2/10) / (4/10) = 2/4 = 1/2입니다. 전체 10장이라는 기준이 약분되어 사라지고, 빨간 카드 안에서의 비율만 남는다는 점이 핵심입니다. 단, 전체 카드가 10장이라는 것은 제가 가정한 값이며 이미지에는 나와 있지 않습니다.",
+    "source": "openrouter",
+    "mode": "context",
+    "at": 1794058835.382209,
+    "training_eligible": false
+  },
+  "elapsed_seconds": 6.82,
+  "fixture": "OS synthetic Korean speech + authored conditional-probability screenshot; not microphone/gaze/native-hotkey test",
+  "media_persisted": false
+}

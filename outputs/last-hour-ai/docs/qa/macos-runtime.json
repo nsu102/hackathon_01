@@ -1,0 +1,36 @@
+{
+  "service": "study-service",
+  "architecture": "arm64",
+  "external_python_on_path": false,
+  "self_check": {
+    "ok": true,
+    "frozen": true,
+    "python": "3.13.7",
+    "mps": true,
+    "torch": "2.15.0",
+    "timm": "1.0.31",
+    "opencv": "5.0.0"
+  },
+  "neural_ready": {
+    "ready": true,
+    "model": "unigaze_l16_joint",
+    "device": "mps",
+    "precision": "float16",
+    "source": "https://github.com/ut-vision/UniGaze",
+    "screen_calibration_required": true
+  },
+  "health": {
+    "version": "0.4",
+    "study_model": {
+      "provider": "openrouter",
+      "model": "anthropic/claude-sonnet-5.5",
+      "configured": true
+    }
+  },
+  "live_answer": {
+    "content": "빨강이라는 조건이 주어지면 전체 카드가 아니라 빨간 카드 4장만 가능한 경우가 되기 때문에, 그 4장이 기준(분모)이 됩니다.",
+    "source": "openrouter",
+    "seconds": 3.75
+  },
+  "private_data_embedded": false
+}

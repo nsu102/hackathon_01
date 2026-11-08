@@ -1,0 +1,386 @@
+[
+ {
+  "vw": 1440,
+  "vh": 900,
+  "L": 80,
+  "R": 1360,
+  "nav": 76,
+  "screen": 900,
+  "hero": {
+   "height": 900,
+   "h1": {
+    "size": 86.4,
+    "leading": 1.03,
+    "lines": 2,
+    "x": 378,
+    "y": 108,
+    "w": 685,
+    "h": 178
+   },
+   "lead": {
+    "size": 17,
+    "lineHeight": 28.05,
+    "lines": 2,
+    "x": 575,
+    "y": 306,
+    "w": 289,
+    "h": 56
+   },
+   "buttons": {
+    "n": 2,
+    "h": 44,
+    "first": {
+     "x": 557,
+     "y": 386,
+     "w": 155,
+     "h": 44
+    }
+   },
+   "visual": null
+  },
+  "sections": [
+   {
+    "where": "section.hero.hero--centred section.hero.hero--centred \"An AI study companion.For the ha\"",
+    "top": 0,
+    "height": 900,
+    "content": 772,
+    "frame": 0
+   },
+   {
+    "where": "#product section.product-section \"Focus nudges.Screen-aware help. \"",
+    "top": 900,
+    "height": 900,
+    "content": 724,
+    "frame": 900
+   }
+  ],
+  "findings": [
+   {
+    "rule": "edge-left",
+    "where": "#start div.span-6 \"Voice help is opt-inA question s\"",
+    "detail": "starts at x 744; the lines are 80 and the column starts"
+   }
+  ],
+  "size": "1440x900",
+  "overflowX": false,
+  "stress": {
+   "hero": "centred",
+   "maxChars": 36,
+   "chars": 41,
+   "lines": 2,
+   "height": 900
+  }
+ },
+ {
+  "vw": 1024,
+  "vh": 768,
+  "L": 80,
+  "R": 944,
+  "nav": 76,
+  "screen": 768,
+  "hero": {
+   "height": 768,
+   "h1": {
+    "size": 68,
+    "leading": 1.03,
+    "lines": 2,
+    "x": 243,
+    "y": 100,
+    "w": 539,
+    "h": 140
+   },
+   "lead": {
+    "size": 16,
+    "lineHeight": 25.6,
+    "lines": 2,
+    "x": 376,
+    "y": 256,
+    "w": 272,
+    "h": 51
+   },
+   "buttons": {
+    "n": 2,
+    "h": 44,
+    "first": {
+     "x": 349,
+     "y": 327,
+     "w": 155,
+     "h": 44
+    }
+   },
+   "visual": null
+  },
+  "sections": [
+   {
+    "where": "section.hero.hero--centred section.hero.hero--centred \"An AI study companion.For the ha\"",
+    "top": 0,
+    "height": 768,
+    "content": 653,
+    "frame": 0
+   },
+   {
+    "where": "#product section.product-section \"Focus nudges.Screen-aware help. \"",
+    "top": 768,
+    "height": 876,
+    "content": 728,
+    "frame": 768
+   }
+  ],
+  "findings": [
+   {
+    "rule": "edge-left",
+    "where": "#start div.span-6 \"Voice help is opt-inA question s\"",
+    "detail": "starts at x 536; the lines are 80 and the column starts"
+   }
+  ],
+  "size": "1024x768",
+  "overflowX": false,
+  "stress": {
+   "hero": "centred",
+   "maxChars": 36,
+   "chars": 41,
+   "lines": 2,
+   "height": 768
+  }
+ },
+ {
+  "vw": 820,
+  "vh": 1180,
+  "L": 48,
+  "R": 772,
+  "nav": 76,
+  "screen": 1180,
+  "hero": {
+   "height": 1180,
+   "h1": {
+    "size": 68,
+    "leading": 1.03,
+    "lines": 2,
+    "x": 141,
+    "y": 108,
+    "w": 539,
+    "h": 140
+   },
+   "lead": {
+    "size": 17,
+    "lineHeight": 28.05,
+    "lines": 2,
+    "x": 265,
+    "y": 268,
+    "w": 289,
+    "h": 56
+   },
+   "buttons": {
+    "n": 2,
+    "h": 44,
+    "first": {
+     "x": 247,
+     "y": 348,
+     "w": 155,
+     "h": 44
+    }
+   },
+   "visual": null
+  },
+  "sections": [
+   {
+    "where": "section.hero.hero--centred section.hero.hero--centred \"An AI study companion.For the ha\"",
+    "top": 0,
+    "height": 1180,
+    "content": 1029,
+    "frame": 0
+   },
+   {
+    "where": "#product section.product-section \"Focus nudges.Screen-aware help. \"",
+    "top": 1180,
+    "height": 2360,
+    "content": 1658,
+    "frame": 1180
+   }
+  ],
+  "findings": [
+   {
+    "rule": "edge-left",
+    "where": "#product h3 \"Ask about your screen\"",
+    "detail": "starts at x 272.7; the lines are 48 and the column starts"
+   },
+   {
+    "rule": "edge-left",
+    "where": "#product p \"Ask about your captured screen a\"",
+    "detail": "starts at x 272.7; the lines are 48 and the column starts"
+   },
+   {
+    "rule": "edge-left",
+    "where": "#product h3 \"Keep camera frames local\"",
+    "detail": "starts at x 497.3; the lines are 48 and the column starts"
+   },
+   {
+    "rule": "edge-left",
+    "where": "#product p \"Camera frames stay on your Mac. \"",
+    "detail": "starts at x 497.3; the lines are 48 and the column starts"
+   }
+  ],
+  "size": "820x1180",
+  "overflowX": false,
+  "stress": {
+   "hero": "centred",
+   "maxChars": 36,
+   "chars": 41,
+   "lines": 2,
+   "height": 1180
+  }
+ },
+ {
+  "vw": 768,
+  "vh": 1024,
+  "L": 48,
+  "R": 720,
+  "nav": 76,
+  "screen": 1024,
+  "hero": {
+   "height": 1024,
+   "h1": {
+    "size": 68,
+    "leading": 1.03,
+    "lines": 2,
+    "x": 115,
+    "y": 108,
+    "w": 539,
+    "h": 140
+   },
+   "lead": {
+    "size": 17,
+    "lineHeight": 28.05,
+    "lines": 2,
+    "x": 239,
+    "y": 268,
+    "w": 289,
+    "h": 56
+   },
+   "buttons": {
+    "n": 2,
+    "h": 44,
+    "first": {
+     "x": 221,
+     "y": 348,
+     "w": 155,
+     "h": 44
+    }
+   },
+   "visual": null
+  },
+  "sections": [
+   {
+    "where": "section.hero.hero--centred section.hero.hero--centred \"An AI study companion.For the ha\"",
+    "top": 0,
+    "height": 1024,
+    "content": 873,
+    "frame": 0
+   },
+   {
+    "where": "#product section.product-section \"Focus nudges.Screen-aware help. \"",
+    "top": 1024,
+    "height": 2048,
+    "content": 1502,
+    "frame": 1024
+   }
+  ],
+  "findings": [
+   {
+    "rule": "edge-left",
+    "where": "#product h3 \"Ask about your screen\"",
+    "detail": "starts at x 272.7; the lines are 48 and the column starts"
+   },
+   {
+    "rule": "edge-left",
+    "where": "#product p \"Ask about your captured screen a\"",
+    "detail": "starts at x 272.7; the lines are 48 and the column starts"
+   },
+   {
+    "rule": "edge-left",
+    "where": "#product h3 \"Keep camera frames local\"",
+    "detail": "starts at x 497.3; the lines are 48 and the column starts"
+   },
+   {
+    "rule": "edge-left",
+    "where": "#product p \"Camera frames stay on your Mac. \"",
+    "detail": "starts at x 497.3; the lines are 48 and the column starts"
+   }
+  ],
+  "size": "768x1024",
+  "overflowX": false,
+  "stress": {
+   "hero": "centred",
+   "maxChars": 36,
+   "chars": 41,
+   "lines": 2,
+   "height": 1024
+  }
+ },
+ {
+  "vw": 390,
+  "vh": 844,
+  "L": 24,
+  "R": 366,
+  "nav": 68,
+  "screen": 844,
+  "hero": {
+   "height": 844,
+   "h1": {
+    "size": 46,
+    "leading": 1.06,
+    "lines": 3,
+    "x": 24,
+    "y": 96,
+    "w": 342,
+    "h": 146
+   },
+   "lead": {
+    "size": 15,
+    "lineHeight": 24,
+    "lines": 2,
+    "x": 67,
+    "y": 260,
+    "w": 255,
+    "h": 48
+   },
+   "buttons": {
+    "n": 2,
+    "h": 44,
+    "first": {
+     "x": 24,
+     "y": 330,
+     "w": 166,
+     "h": 44
+    }
+   },
+   "visual": null
+  },
+  "sections": [
+   {
+    "where": "section.hero.hero--centred section.hero.hero--centred \"An AI study companion.For the ha\"",
+    "top": 0,
+    "height": 844,
+    "content": 730,
+    "frame": 0
+   },
+   {
+    "where": "#product section.product-section \"Focus nudges.Screen-aware help. \"",
+    "top": 844,
+    "height": 1688,
+    "content": 1373,
+    "frame": 844
+   }
+  ],
+  "findings": [],
+  "size": "390x844",
+  "overflowX": false,
+  "stress": {
+   "hero": "centred",
+   "maxChars": 36,
+   "chars": 41,
+   "lines": 3,
+   "height": 844
+  }
+ }
+]

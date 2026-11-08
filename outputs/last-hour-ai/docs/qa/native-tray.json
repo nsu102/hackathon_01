@@ -1,0 +1,19 @@
+{
+  "version": "0.6.0",
+  "platform": "darwin",
+  "component": "study-menu-bar",
+  "bounds": {
+    "x": 786,
+    "y": 0,
+    "width": 32,
+    "height": 37
+  },
+  "template": true,
+  "scales": [
+    1,
+    2
+  ],
+  "observed": "native Tray.getBounds/NativeImage after ready-to-show",
+  "menu_click_via_os": "not_verified; SystemUIServer CUA timeout",
+  "sensor_data_included": false
+}

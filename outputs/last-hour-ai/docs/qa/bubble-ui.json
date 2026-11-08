@@ -1,0 +1,13 @@
+{
+  "passed": [
+    "consent gating",
+    "voice action",
+    "recording and attached screenshot",
+    "material count",
+    "answer and question",
+    "focus grace action",
+    "untrusted text stays text",
+    "370px no horizontal overflow"
+  ],
+  "page_errors": []
+}

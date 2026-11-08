@@ -1,0 +1,52 @@
+{
+  "version": "0.6.0",
+  "python_tests": 66,
+  "node_tests": 50,
+  "mock_browser_workflows": 13,
+  "browser_js_errors": 0,
+  "electron": "45.2.3",
+  "uiohook_napi": "1.5.5",
+  "native_abi_loaded": true,
+  "live_stt_vision_fixture_passed": true,
+  "live_fixture_elapsed_seconds": 6.96,
+  "human_gaze_accuracy": "UniGaze retest pending; previous landmark engine median=113,max=393,valid_ratio=.98 failed",
+  "false_alert_rate": "not_measured",
+  "physical_hotkey_test": "pending_permissions_and_device_test",
+  "native_app_started": true,
+  "native_camera_model_running": true,
+  "native_calibration_gate_observed": true,
+  "calibration_fix": "canthus-relative vertical iris feature, camera-adaptive eye feature scaling, fresh-frame sampling, work-area window bounds",
+  "native_accessibility_permission": "optional global-hotkey path only; no OS permissions changed",
+  "display_event_fix": "ignore workArea-only/other-monitor metrics; invalidate selected-monitor bounds/scale/rotation only",
+  "python_default_skipped_optional": 2,
+  "neural_env_tests": 3,
+  "native_neural_loaded": true,
+  "gaze_engine": "unigaze_l16_joint",
+  "gaze_device": "mps_float16",
+  "live_screen_help_http_passed": true,
+  "live_screen_help_elapsed_seconds": 6.01,
+  "calibration_persistence": "validated coefficients saved locally; matching setup reuses model after 5 fresh validation targets; synthetic roundtrip and failure gates passed",
+  "native_screen_help": "UI observed; end-to-end native capture not verified because computer-use calls timed out",
+  "voice_input": "button start + explicit send; optional hold hotkey",
+  "focus_default": "neural coarse screen direction with current-run reference, independent of precise coordinate validation",
+  "human_focus_accuracy": "User reported on-screen/away state transitions working on 2026-11-08; directional functional check only, no quantified accuracy or false-alert rate",
+  "native_tray_registered": true,
+  "native_tray_template": true,
+  "native_tray_scale_factors": [
+    1,
+    2
+  ],
+  "native_tray_bounds": {
+    "x": 786,
+    "y": 0,
+    "width": 32,
+    "height": 37
+  },
+  "native_settings_ui_verified": true,
+  "native_voice_screen_end_to_end": "pending microphone/screen hardware test",
+  "human_focus_user_report": {
+    "date": "2026-11-08",
+    "result": "응시·이탈 상태가 바뀜",
+    "scope": "User response to looking at center then looking aside; timing, alert delivery and accuracy not independently measured"
+  }
+}

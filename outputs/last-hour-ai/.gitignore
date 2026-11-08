@@ -1,0 +1,15 @@
+.venv/
+.gaze-venv/
+__pycache__/
+*.egg-info/
+.env
+data/
+overlay/node_modules/
+infra/*.private
+training/adapters/
+training/cache/
+.build/
+*.zip
+*.dmg
+*.app/
+.DS_Store

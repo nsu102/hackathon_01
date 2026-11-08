@@ -1,0 +1,18 @@
+{
+  "ready": {
+    "ready": true,
+    "model": "unigaze_l16_joint",
+    "device": "mps",
+    "precision": "float16",
+    "source": "https://github.com/ut-vision/UniGaze",
+    "screen_calibration_required": true
+  },
+  "official_portrait_fixture": true,
+  "landmark_source": "MediaPipe on frozen image",
+  "worker_predictions": 4,
+  "all_finite": true,
+  "median_inference_ms": 78.3,
+  "pose_residual_px": 1.88,
+  "user_accuracy": "not_measured",
+  "raw_media_persisted": false
+}

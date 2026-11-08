@@ -1,0 +1,16 @@
+{
+  "repo": "UniGaze/UniGaze-models",
+  "revision": "d3f8335cd4b7d249adbc32389986ce49b52f6f72",
+  "models": [
+    {
+      "filename": "unigaze_l16_joint.safetensors",
+      "bytes": 1217344208,
+      "sha256": "bec5e71a47960f4aa3d901682671b75d500e38d80f5f84ebf3e093bffb60e3c3"
+    },
+    {
+      "filename": "unigaze_b16_joint.safetensors",
+      "bytes": 346291616,
+      "sha256": "2580d707b1395840ecabe7906e2cb35705f38c4ddb0be9c3c38ebb2d5546ffb8"
+    }
+  ]
+}

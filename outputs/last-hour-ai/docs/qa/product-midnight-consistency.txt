@@ -1,0 +1,132 @@
+consistency  /Users/yunsu/Documents/Codex/2026-11-07/6-43-computer-use-api-finetuning/outputs/last-hour-ai/product/index.html
+
+1440x900  4 screens  6 FAIL  7 WARN
+  WARN no-visual       main#top > section.hero.hero--centred  "An AI study companion. For the hard part"
+       pictures, effects and mocks cover 15% of this section; a feature section needs a visual (about 25% or more)  [1440-01-no-visual.jpg]
+       fix: give the section a visual: a UI fragment on a ground, real icons, or a photograph that fits
+  WARN copy-headings   div.product-copy.span-5 > div.feature-list > div:nth-of-type(1) > h3  "Get a timely nudge"
+       "Get a timely nudge" names no product, part, place or section (the one brand line a page may have)  [1440-05-copy-headings.jpg]
+       fix: name the thing in every heading: the product, a part, the place or a section noun
+  WARN nav-labels      div.wrap.nav__bar > nav.nav__links > div.nav__item:nth-of-type(1) > a.nav__link  "Product"
+       "Product" opens a section headed "Focus nudges. Screen-aware help."  [1440-02-nav-labels.jpg]
+       fix: name each nav link after the heading of the section it opens
+  WARN label-centre    header.nav > div.wrap.nav__bar > div.nav__actions > button.btn.btn--primary  "View the app"
+       its label sits 18px off-centre (21px of room at the left, 39px at the right) (and 2 more like it: "View the app", "View the app")  [1440-03-label-centre.jpg]
+       fix: centre the label in its button, or fill the empty side with an icon
+  WARN button-contrast div.wrap > div.hero-text > div.btn-row.hero-actions > a.btn.btn--secondary  "See the features"
+       the button "See the features" (#171a1c) stands only 1.09:1 off the ground around it: it reads as part of the ground, or as switched off  [1440-04-button-contrast.jpg]
+       fix: give the button a fill that stands at least 1.5:1 off what is around it, or an outline in the ink
+  WARN button-contrast div.wrap > div.closing__cta > div.btn-row > a.btn.btn--secondary  "Read the setup notes"
+       the button "Read the setup notes" (#171a1c) stands only 1.13:1 off the ground around it: it reads as part of the ground, or as switched off  [1440-06-button-contrast.jpg]
+       fix: give the button a fill that stands at least 1.5:1 off what is around it, or an outline in the ink
+  WARN font-load       :root  "DM Mono"
+       "DM Mono" is asked for by --font-mono but never loaded (no font link or @font-face loads it): it shows in its fallback
+       fix: load every family the type asks for: name it in the font link as start.mjs prints it, spelt as Google Fonts spells it, or ask for a family the page loads
+  FAIL one-heading     h2#product-h  "Focus nudges.Screen-aware help."
+       headings of two sections show whole on one screen at 7 of 37 scroll positions (18.9%; at scroll 250, 300, 350, 400px), here with "8s": at most 3% on a desktop (SR-5)  [1440-rhythm-01-one-heading.jpg]
+       fix: make the sections one screen tall so their headings sit a screen apart and two never share one
+  FAIL container-edges section.hero.hero--centred > div.wrap > div.hero-text > p.hero__lead  "A nudge when you drift away.Voice help f"
+       1 text block starts on a left line at x 610, 530px from the container's left: text starts on the container's left, or on one split line (x 623, 732, 841) (SR-6)  [1440-rhythm-02-container-edges.jpg]
+       fix: start the text on the container's left, or on the one split line every split shares
+  FAIL container-edges h1#hero-h  "An AI study companion.For the hard parts"
+       1 text block starts on a left line at x 378, 298px from the container's left: text starts on the container's left, or on one split line (x 623, 732, 841) (SR-6)  [1440-rhythm-03-container-edges.jpg]
+       fix: start the text on the container's left, or on the one split line every split shares
+  FAIL container-edges h1#hero-h  "An AI study companion.For the hard parts"
+       the h1 starts 298px right of the container's left: every h1 and h2 starts on it, 2px either way (SR-6)  [1440-rhythm-04-container-edges.jpg]
+       fix: start the text on the container's left, or on the one split line every split shares
+  FAIL container-edges h1#hero-h  "An AI study companion.For the hard parts"
+       "An AI study companion.For the ha" is set centred across 685px, over half the 1280px container: text that wide is set left (SR-6)  [1440-rhythm-05-container-edges.jpg]
+       fix: set the text left (text-align: start)
+  FAIL split-pair      section#product > div.wrap.grid  "Focus nudges.Screen-aware help. Focus re"
+       the split's columns are off the page's one pair of lines: its left column ends at 599px, not 24px before the right one (708px) (SR-8)  [1440-rhythm-06-split-pair.jpg]
+       fix: start every split's right column on one shared line (wrap.left + k x (width + 24) / 12, k 5, 6 or 7; 6 on a place page) and end the left one 24px before it
+
+390x844  5 screens  7 FAIL  7 WARN
+  WARN nav             header.nav > div.wrap.nav__bar > button.nav__toggle
+       the nav is lopsided: its last item ends 13px inside the content's edge (366px), while its first starts on the other edge  [390-01-nav.jpg]
+       fix: start the nav's first item and end its last on the content's two edges
+  WARN body-size       section.hero.hero--centred > div.wrap > div.hero-text > p.hero__lead  "A nudge when you drift away. Voice help "
+       3 of 3 paragraphs of running text are set under 16px (15px)  [390-02-body-size.jpg]
+       fix: set running text at 16px or more
+  WARN section-gaps    main#top > section.hero.hero--centred / section#product
+       115px between these sections, -46% against the median 212px  [390-05-section-gaps.jpg]
+       fix: use one gap between sections (all within 25% of each other)
+  WARN section-gaps    section#product / footer#start
+       308px between these sections, +46% against the median 212px  [390-06-section-gaps.jpg]
+       fix: use one gap between sections (all within 25% of each other)
+  WARN label-centre    header.nav > div.wrap.nav__bar > div.nav__actions > button.btn.btn--primary  "View the app"
+       its label sits 18px off-centre (13px of room at the left, 31px at the right) (and 1 more like it: "View the app")  [390-03-label-centre.jpg]
+       fix: centre the label in its button, or fill the empty side with an icon
+  WARN button-contrast div.wrap > div.hero-text > div.btn-row.hero-actions > a.btn.btn--secondary  "See the features"
+       the button "See the features" (#171a1c) stands only 1.06:1 off the ground around it: it reads as part of the ground, or as switched off  [390-04-button-contrast.jpg]
+       fix: give the button a fill that stands at least 1.5:1 off what is around it, or an outline in the ink
+  WARN button-contrast div.wrap > div.closing__cta > div.btn-row > a.btn.btn--secondary  "Read the setup notes"
+       the button "Read the setup notes" (#171a1c) stands only 1.13:1 off the ground around it: it reads as part of the ground, or as switched off  [390-07-button-contrast.jpg]
+       fix: give the button a fill that stands at least 1.5:1 off what is around it, or an outline in the ink
+  FAIL one-heading     h2#product-h  "Focus nudges.Screen-aware help."
+       headings of two sections show whole on one screen at 3 of 51 scroll positions (5.9%; at scroll 200, 250, 300px), here with "8s": at most 5% on a phone (SR-5)  [390-rhythm-01-one-heading.jpg]
+       fix: make the sections one screen tall so their headings sit a screen apart and two never share one
+  FAIL container-edges div.hero-stage.grid > dl.signal-facts.signal-facts--left > div:nth-of-type(1) > dd  "8s"
+       1 text block starts on a left line at x 121, 97px from the container's left: text starts on the container's left, or on one split line (x 177, 207, 238) (SR-6)  [390-rhythm-02-container-edges.jpg]
+       fix: start the text on the container's left, or on the one split line every split shares
+  FAIL container-edges h1#hero-h  "An AI study companion.For the hard parts"
+       1 text block starts on a left line at x 110, 86px from the container's left: text starts on the container's left, or on one split line (x 177, 207, 238) (SR-6)  [390-rhythm-03-container-edges.jpg]
+       fix: start the text on the container's left, or on the one split line every split shares
+  FAIL container-edges h1#hero-h  "An AI study companion.For the hard parts"
+       the h1 starts 86px right of the container's left: every h1 and h2 starts on it, 2px either way (and 2 more like it: x 98, x 79) (SR-6)  [390-rhythm-04-container-edges.jpg]
+       fix: start the text on the container's left, or on the one split line every split shares
+  FAIL container-edges h1#hero-h  "An AI study companion.For the hard parts"
+       "An AI study companion.For the ha" is set centred across 342px, over half the 342px container: text that wide is set left (SR-6)  [390-rhythm-05-container-edges.jpg]
+       fix: set the text left (text-align: start)
+  FAIL container-edges section.hero.hero--centred > div.wrap > div.hero-text > p.hero__lead  "A nudge when you drift away.Voice help f"
+       "A nudge when you drift away.Voic" is set centred across 255px, over half the 342px container: text that wide is set left (SR-6)  [390-rhythm-06-container-edges.jpg]
+       fix: set the text left (text-align: start)
+  FAIL container-edges div.hero-text > div.hero-stage.grid > div.hero-app-slot.span-6 > button.native-preview.app-frame  "Open the full screenshot of the current "
+       a box over half the container wide runs 45-345px, not on the container's lines at 24-366px (SR-6)  [390-rhythm-07-container-edges.jpg]
+       fix: run the picture or box from the container's left line to its right line, or put it in a row or a split
+
+first screen at 1280, 1152, 1024, 896, 768  0 FAIL  0 WARN
+
+checks
+  PASS assets                 PASS shader-lint            PASS gl-fallback            
+  PASS empty-visual           PASS hero-fill              PASS flush                  
+  PASS placeholder            PASS sample-label           PASS caption                
+  PASS credit-wall            WARN nav                    PASS nav-covers             
+  PASS spill                  PASS off-viewport           PASS fold-card              
+  PASS hover-spill            PASS overlap-text           PASS row-gap                
+  PASS cut-text               PASS fold-cut               PASS marquee                
+  PASS scroll-linked          PASS scroll-reveal          PASS pinned                 
+  PASS loop-pause             PASS reduced-motion         PASS hidden-content         
+  PASS webgl                  WARN no-visual              PASS text-only              
+  PASS card-visual            PASS hidden-visual          PASS card-family            
+  PASS card-layout            PASS nesting                PASS effect-repeat          
+  PASS ui-fit                 PASS ui-centre              PASS dark-ground            
+  PASS button-styles          PASS button-shape           PASS same-action            
+  PASS button-picture         PASS cta                    PASS pricing-tiers          
+  PASS copy-headline          PASS copy-fact              WARN copy-headings          
+  PASS copy-buttons           PASS copy-actions           PASS heading-scale          
+  PASS stagger                PASS top-stagger            PASS off-grid               
+  PASS col-edge               PASS right-edge             PASS centre-axis            
+  PASS tilt                   PASS contrast               PASS text-contrast          
+  WARN body-size              PASS busy-ground            WARN section-gaps           
+  PASS proximity              PASS hole                   PASS links                  
+  PASS forms                  PASS photo-upscale          PASS photo-set              
+  PASS photo-credit           PASS nav-family             WARN nav-labels             
+  PASS link-styles            PASS heading-align          WARN label-centre           
+  PASS fake-button            PASS stranded-action        PASS orphan                 
+  PASS unit-break             PASS tab-wrap               PASS effects-fit            
+  PASS fade-cut               PASS photo-weight           PASS copy-length            
+  PASS nav-current            PASS progress-bar           PASS photo-repeat           
+  WARN button-contrast        PASS photo-print            PASS grounds                
+  PASS split-align            PASS fact-agree             PASS fold-action            
+  PASS action-count           PASS one-screen             PASS hover                  
+  PASS hover-move             PASS product-shown          PASS same-object            
+  WARN font-load              PASS visual-caption         PASS visual-empty           
+  PASS effect-kind            PASS street-number          PASS postcode               
+  PASS coordinates            PASS company-number         PASS phone-number           
+  PASS hero-screen            PASS section-height         PASS section-air            
+  PASS one-section            FAIL one-heading            FAIL container-edges        
+  PASS row-lines              FAIL split-pair             PASS motion-layer           
+  PASS count-text             PASS loop-cycle             PASS section-tile           
+
+total  13 FAIL  14 WARN  (crops and report.json in /Users/yunsu/Documents/Codex/2026-11-07/6-43-computer-use-api-finetuning/work/product-midnight/consistency)
